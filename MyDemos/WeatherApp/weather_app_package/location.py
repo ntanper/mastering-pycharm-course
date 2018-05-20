@@ -1,5 +1,8 @@
-class location:
 
+class location:
+    """
+    A class containing location data for our weather forecast
+    """
     def __init__(self, zip_code):
         self.zip_code = zip_code
 
